@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+}
+
+.tiles {
+    width: 1000px;
+    font-size: 0;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.tile {
+    width: calc(1000px / 3);
+    display: inline-block;
+}
+
+.tile h2 {
+    font-size: 20px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tile h2::first-letter {
+    color: red;
+}
+
